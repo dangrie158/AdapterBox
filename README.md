@@ -31,8 +31,7 @@ For a Spreadsheet BOM, see [BOM.xlsx](BOM.xlsx).
 
 The full BOM is currently only available from CONRAD Electronic, however for most Parts you should be able to easily find a replacement (see the Spreadsheet for some Digikey Part#s). Only the Case could be a bit hard to find elsewhere, but it is not mandatory to have (make one from Acrylic sheets for example).
 
-|                    |     |                 |                       | CONRAD Electronic |               |                |
-| .                  | Qty | Manufacturer    | Manufacturer Part No. | Order-No.         | Price (1) [€] | Price (10) [€] |
+|                    | Qty | Manufacturer    | Manufacturer Part No. | Order-No.         | Price (1) [€] | Price (10) [€] |
 |--------------------|-----|-----------------|-----------------------|-------------------|---------------|----------------|
 | BNC Jack           | 1   | TRU-Components  | 730413                | 1566143 - 62      | 3,44          | 3,24           |
 | Case               | 1   | TRU-Components  | TC-2024 SW203         | 1588559 - 62      | 2,86          | 2,74           |
