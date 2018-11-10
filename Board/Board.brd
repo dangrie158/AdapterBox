@@ -8,7 +8,7 @@
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -28,14 +28,14 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -46,19 +46,19 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -168,7 +168,7 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyOWFjMzc0" projecturn="a.cGVyc29uYWw6dWUyOWFjMzc0IzIwMTgxMTA5MTU5MzcxODUx" f3durn="urn:adsk.wipprod:dm.lineage:8R8TAl3XTbGenGFVYcsrqQ" pcbguid="c32a4f4f-8cd4-4b95-b40a-19347d32ef6f" lastpulledtime="" lastsyncedchangeguid="e6b24bbf-ca84-4fc0-db6f-541c9d2edb22"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyOWFjMzc0" projecturn="a.cGVyc29uYWw6dWUyOWFjMzc0IzIwMTgxMTA5MTU5MzcxODUx" f3durn="urn:adsk.wipprod:dm.lineage:8R8TAl3XTbGenGFVYcsrqQ" pcbguid="c32a4f4f-8cd4-4b95-b40a-19347d32ef6f" lastpulledtime="" lastsyncedchangeguid="8334b7a7-d3ef-adac-df46-f7148cd81ce2"/>
 <plain>
 <wire x1="3" y1="0" x2="69" y2="0" width="0" layer="20"/>
 <wire x1="72" y1="3" x2="72" y2="47" width="0" layer="20"/>
@@ -183,9 +183,9 @@
 <hole x="69" y="47" drill="3"/>
 <hole x="3" y="47" drill="3"/>
 <wire x1="40" y1="25" x2="48" y2="25" width="1.27" layer="21" style="shortdash"/>
-<wire x1="67" y1="25" x2="70" y2="25" width="1.27" layer="21" style="shortdash"/>
-<text x="31.5" y="35" size="6" layer="21" font="fixed" align="center">+</text>
-<text x="31.5" y="16.5" size="6" layer="21" font="fixed" align="center">-</text>
+<wire x1="68" y1="25" x2="71" y2="25" width="1.27" layer="21" style="shortdash"/>
+<text x="54.5" y="35" size="6" layer="21" font="fixed" align="center">+</text>
+<text x="54.5" y="16.5" size="6" layer="21" font="fixed" align="center">-</text>
 <text x="11.5" y="40.5" size="2.5" layer="21" font="fixed" align="center">+</text>
 <text x="11.5" y="36" size="2.5" layer="21" font="fixed" align="center">-</text>
 <text x="11.5" y="14.5" size="2.5" layer="21" font="fixed" align="center">+</text>
@@ -196,7 +196,7 @@
 <wire x1="18" y1="25" x2="18" y2="27" width="0.5" layer="21"/>
 <text x="18" y="28.625" size="2.5" layer="21" font="fixed" align="center">+</text>
 <text x="18" y="21.375" size="2.5" layer="21" font="fixed" align="center">-</text>
-<wire x1="21.5" y1="25" x2="24.5" y2="25" width="1.27" layer="21" style="shortdash"/>
+<wire x1="62.5" y1="25" x2="65.5" y2="25" width="1.27" layer="21" style="shortdash"/>
 <text x="36" y="52" size="0.6096" layer="51" font="fixed" align="center">Gehäuse:
 https://www.conrad.de/de/tru-components-tc-2024-sw203-universal-gehaeuse-72-x-50-x-26-abs-schwarz-1-st-1588559.html</text>
 </plain>
@@ -1087,27 +1087,27 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="6MM-BANANA-MOUNT" package3d_urn="urn:adsk.eagle:package:6658155/2" value="6MM-BANANA-PLUG" x="41" y="15.5" smashed="yes"/>
+<element name="U$1" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="6MM-BANANA-MOUNT" package3d_urn="urn:adsk.eagle:package:6658155/2" value="6MM-BANANA-PLUG" x="64" y="15.5" smashed="yes" rot="R180"/>
 <element name="U$10" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="MKDSN1,5/2-5,08" package3d_urn="urn:adsk.eagle:package:6658197/4" value="TERMINAL-BLOCK-2" x="5" y="12" smashed="yes" rot="R270"/>
 <element name="U$11" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="MSTBV2" package3d_urn="urn:adsk.eagle:package:6658311/2" value="TERMINAL-BLOCK-2PLUG-IN" x="5" y="38" smashed="yes" rot="R90"/>
 <element name="U$12" library="Parts" library_urn="urn:adsk.eagle:library:2304016" package="POWER_JACK_PTH" package3d_urn="urn:adsk.eagle:package:2338719/2" value="DC-JACK" x="0" y="25" smashed="yes" rot="R270"/>
-<element name="U$2" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="6MM-BANANA-MOUNT" package3d_urn="urn:adsk.eagle:package:6658155/2" value="6MM-BANANA-PLUG" x="22" y="34.5" smashed="yes"/>
-<element name="U$3" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="6MM-BANANA-MOUNT" package3d_urn="urn:adsk.eagle:package:6658155/2" value="6MM-BANANA-PLUG" x="22" y="15.5" smashed="yes"/>
-<element name="U$4" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="6MM-BANANA-MOUNT" package3d_urn="urn:adsk.eagle:package:6658155/2" value="6MM-BANANA-PLUG" x="41" y="34.5" smashed="yes"/>
-<element name="U$5" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="BNC-V" package3d_urn="urn:adsk.eagle:package:6658128/4" value="BNC-VTE-1-1337541-0" x="57.5" y="25" smashed="yes" rot="R270">
-<attribute name="MANUFACTURERNUMBER" value="TE-Connectivity 1-1337541-0" x="48.61" y="-21.99" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="U$2" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="6MM-BANANA-MOUNT" package3d_urn="urn:adsk.eagle:package:6658155/2" value="6MM-BANANA-PLUG" x="45" y="34.5" smashed="yes" rot="R180"/>
+<element name="U$3" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="6MM-BANANA-MOUNT" package3d_urn="urn:adsk.eagle:package:6658155/2" value="6MM-BANANA-PLUG" x="45" y="15.5" smashed="yes" rot="R180"/>
+<element name="U$4" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="6MM-BANANA-MOUNT" package3d_urn="urn:adsk.eagle:package:6658155/2" value="6MM-BANANA-PLUG" x="64" y="34.5" smashed="yes" rot="R180"/>
+<element name="U$5" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="BNC-V" package3d_urn="urn:adsk.eagle:package:6658128/4" value="BNC-VTE-1-1337541-0" x="29.5" y="25" smashed="yes" rot="R270">
+<attribute name="MANUFACTURERNUMBER" value="TE-Connectivity 1-1337541-0" x="20.61" y="-21.99" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U$6" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="1X06" package3d_urn="urn:adsk.eagle:package:6665747/1" value="PINHD-6" x="57.5" y="7" smashed="yes"/>
-<element name="U$7" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="1X06" package3d_urn="urn:adsk.eagle:package:6665747/1" value="PINHD-6" x="57.5" y="43" smashed="yes"/>
-<element name="U$8" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="1X06F" package3d_urn="urn:adsk.eagle:package:6658229/3" value="PINHD-6FEMALE" x="57.5" y="13" smashed="yes"/>
-<element name="U$9" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="1X06F" package3d_urn="urn:adsk.eagle:package:6658229/3" value="PINHD-6FEMALE" x="57.5" y="37" smashed="yes"/>
-<element name="U$13" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="LOGO-SILKSCREEN" package3d_urn="urn:adsk.eagle:package:6663173/1" value="" x="32" y="24" smashed="yes"/>
-<element name="U$14" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="TE-726386" package3d_urn="urn:adsk.eagle:package:6665093/5" value="TERMINAL-1" x="20" y="6" smashed="yes"/>
-<element name="U$15" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="TE-726386" package3d_urn="urn:adsk.eagle:package:6665093/5" value="TERMINAL-1" x="20" y="44" smashed="yes"/>
-<element name="U$16" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="VOGT-1098A.68" package3d_urn="urn:adsk.eagle:package:6676654/3" value="TERMINAL-1BRIDGE" x="31.5" y="44" smashed="yes"/>
-<element name="U$17" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="VOGT-1098A.68" package3d_urn="urn:adsk.eagle:package:6676654/3" value="TERMINAL-1BRIDGE" x="31.5" y="6" smashed="yes"/>
-<element name="U$18" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="TE-726386" package3d_urn="urn:adsk.eagle:package:6665093/5" value="TERMINAL-1" x="43" y="6" smashed="yes"/>
-<element name="U$19" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="TE-726386" package3d_urn="urn:adsk.eagle:package:6665093/5" value="TERMINAL-1" x="43" y="44" smashed="yes"/>
+<element name="U$6" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="1X06" package3d_urn="urn:adsk.eagle:package:6665747/1" value="PINHD-6" x="29.5" y="7" smashed="yes"/>
+<element name="U$7" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="1X06" package3d_urn="urn:adsk.eagle:package:6665747/1" value="PINHD-6" x="29.5" y="43" smashed="yes"/>
+<element name="U$8" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="1X06F" package3d_urn="urn:adsk.eagle:package:6658229/3" value="PINHD-6FEMALE" x="29.5" y="13" smashed="yes"/>
+<element name="U$9" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="1X06F" package3d_urn="urn:adsk.eagle:package:6658229/3" value="PINHD-6FEMALE" x="29.5" y="37" smashed="yes"/>
+<element name="U$13" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="LOGO-SILKSCREEN" package3d_urn="urn:adsk.eagle:package:6663173/1" value="" x="54.5" y="24" smashed="yes"/>
+<element name="U$14" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="TE-726386" package3d_urn="urn:adsk.eagle:package:6665093/5" value="TERMINAL-1" x="43" y="6" smashed="yes" rot="R180"/>
+<element name="U$15" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="TE-726386" package3d_urn="urn:adsk.eagle:package:6665093/5" value="TERMINAL-1" x="43" y="44" smashed="yes" rot="R180"/>
+<element name="U$16" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="VOGT-1098A.68" package3d_urn="urn:adsk.eagle:package:6676654/3" value="TERMINAL-1BRIDGE" x="54.5" y="44" smashed="yes"/>
+<element name="U$17" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="VOGT-1098A.68" package3d_urn="urn:adsk.eagle:package:6676654/3" value="TERMINAL-1BRIDGE" x="54.5" y="6" smashed="yes"/>
+<element name="U$18" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="TE-726386" package3d_urn="urn:adsk.eagle:package:6665093/5" value="TERMINAL-1" x="16" y="6" smashed="yes" rot="R180"/>
+<element name="U$19" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="TE-726386" package3d_urn="urn:adsk.eagle:package:6665093/5" value="TERMINAL-1" x="16" y="44" smashed="yes" rot="R180"/>
 </elements>
 <signals>
 <signal name="+">
@@ -1150,7 +1150,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U$16" pad="P$1"/>
 <contactref element="U$19" pad="P$1"/>
 <contactref element="U$19" pad="P$2"/>
-<wire x1="57.5" y1="27.54" x2="57.5" y2="25" width="0.508" layer="1"/>
+<wire x1="29.5" y1="27.54" x2="29.5" y2="25" width="0.508" layer="1"/>
 <wire x1="5.025" y1="14.5611" x2="5.025" y2="20.975" width="2.54" layer="1"/>
 <wire x1="5.025" y1="14.5611" x2="5.025" y2="20.975" width="2.54" layer="16"/>
 <wire x1="5.025" y1="20.975" x2="2.286" y2="23.714" width="2.54" layer="16"/>
@@ -1185,11 +1185,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U$10" pad="2"/>
 <contactref element="U$14" pad="P$2"/>
 <contactref element="U$14" pad="P$1"/>
-<wire x1="52.42" y1="30.08" x2="52.42" y2="21.58" width="2.54" layer="16"/>
-<wire x1="52.42" y1="21.58" x2="53" y2="21" width="2.54" layer="16"/>
-<wire x1="52.42" y1="30.08" x2="52.42" y2="21.42" width="2.54" layer="1"/>
-<wire x1="52.42" y1="21.42" x2="52" y2="21" width="2.54" layer="1"/>
-<wire x1="52" y1="21" x2="53" y2="20" width="2.54" layer="1"/>
+<wire x1="24.42" y1="30.08" x2="24.42" y2="21.58" width="2.54" layer="16"/>
+<wire x1="24.42" y1="21.58" x2="26" y2="20" width="2.54" layer="16"/>
+<wire x1="24.42" y1="30.08" x2="24.42" y2="21.58" width="2.54" layer="1"/>
+<wire x1="24.42" y1="21.58" x2="26" y2="20" width="2.54" layer="1"/>
 <polygon width="0.508" layer="16" isolate="0.8128">
 <vertex x="0" y="24.125"/>
 <vertex x="0" y="0"/>
