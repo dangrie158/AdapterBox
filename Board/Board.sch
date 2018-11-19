@@ -753,15 +753,15 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BNC-V" urn="urn:adsk.eagle:component:6658129/5" library_version="25" library_locally_modified="yes">
+<deviceset name="BNC-V" urn="urn:adsk.eagle:component:6658129/6" locally_modified="yes" library_version="28" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="BU-BNC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="TE-1-1337541-0" package="BNC-V">
 <connects>
-<connect gate="G$1" pin="C" pad="CONDUCTOR1 CONDUCTOR2"/>
-<connect gate="G$1" pin="S" pad="SHIELD1 SHIELD2"/>
+<connect gate="G$1" pin="C" pad="CONDUCTOR1"/>
+<connect gate="G$1" pin="S" pad="CONDUCTOR2 SHIELD1 SHIELD2" route="any"/>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:6658128/5"/>
@@ -874,7 +874,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="USB" urn="urn:adsk.eagle:component:6728532/1" locally_modified="yes" library_version="27" library_locally_modified="yes">
+<deviceset name="USB" urn="urn:adsk.eagle:component:6728532/2" library_version="28" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="USB" x="0" y="0"/>
 </gates>
