@@ -3,7 +3,7 @@
 <eagle version="9.2.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
@@ -168,7 +168,7 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyOWFjMzc0" projecturn="a.cGVyc29uYWw6dWUyOWFjMzc0IzIwMTgxMTA5MTU5MzcxODUx" f3durn="urn:adsk.wipprod:dm.lineage:8R8TAl3XTbGenGFVYcsrqQ" pcbguid="c32a4f4f-8cd4-4b95-b40a-19347d32ef6f" lastpulledtime="2018-11-11T17:12:34Z" lastsyncedchangeguid="f148739b-0e27-b40c-a1d0-ee1bb420b8f3"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyOWFjMzc0" projecturn="a.cGVyc29uYWw6dWUyOWFjMzc0IzIwMTgxMTA5MTU5MzcxODUx" f3durn="urn:adsk.wipprod:dm.lineage:8R8TAl3XTbGenGFVYcsrqQ" pcbguid="c32a4f4f-8cd4-4b95-b40a-19347d32ef6f" lastpulledtime="2018-12-01T15:07:32Z" lastsyncedchangeguid="c96938d0-b081-732c-ddc0-3cabcccae12e"/>
 <plain>
 <text x="11.5" y="40.5" size="2.5" layer="21" font="fixed" align="center">+</text>
 <text x="11.5" y="36" size="2.5" layer="21" font="fixed" align="center">-</text>
@@ -181,18 +181,6 @@
 <text x="36" y="52" size="0.6096" layer="51" font="fixed" align="center">Gehäuse:
 https://www.conrad.de/de/tru-components-tc-2024-sw203-universal-gehaeuse-72-x-50-x-26-abs-schwarz-1-st-1588559.html</text>
 <text x="52" y="2" size="1.016" layer="22" rot="MR0" align="center">https://github.com/dangrie158/AdapterBox</text>
-<hole x="3" y="3" drill="3"/>
-<hole x="69" y="3" drill="3"/>
-<hole x="69" y="47" drill="3"/>
-<hole x="3" y="47" drill="3"/>
-<wire x1="3" y1="0" x2="69" y2="0" width="0.254" layer="20"/>
-<wire x1="69" y1="0" x2="72" y2="3" width="0.254" layer="20" curve="90"/>
-<wire x1="72" y1="3" x2="72" y2="47" width="0.254" layer="20"/>
-<wire x1="72" y1="47" x2="69" y2="50" width="0.254" layer="20" curve="90"/>
-<wire x1="69" y1="50" x2="3" y2="50" width="0.254" layer="20"/>
-<wire x1="3" y1="50" x2="0" y2="47" width="0.254" layer="20" curve="90"/>
-<wire x1="0" y1="47" x2="0" y2="3" width="0.254" layer="20"/>
-<wire x1="0" y1="3" x2="3" y2="0" width="0.254" layer="20" curve="90"/>
 <text x="19.825" y="34" size="1.27" layer="25" align="center-left">ON</text>
 <text x="44" y="5" size="6.4516" layer="21" font="vector" align="center">-</text>
 <text x="44" y="46" size="6.4516" layer="21" font="vector" align="center">+</text>
@@ -527,6 +515,18 @@ https://www.conrad.de/de/tru-components-tc-2024-sw203-universal-gehaeuse-72-x-50
 <rectangle x1="62.8735" y1="7.8105" x2="63.6935" y2="7.8515" layer="22" rot="R180"/>
 <rectangle x1="62.8735" y1="7.8515" x2="63.6935" y2="7.8925" layer="22" rot="R180"/>
 <rectangle x1="62.9145" y1="7.8925" x2="63.6525" y2="7.9335" layer="22" rot="R180"/>
+<hole x="3" y="3" drill="3"/>
+<hole x="69" y="3" drill="3"/>
+<hole x="69" y="47" drill="3"/>
+<hole x="3" y="47" drill="3"/>
+<wire x1="3" y1="0" x2="69" y2="0" width="0.254" layer="20"/>
+<wire x1="69" y1="0" x2="72" y2="3" width="0.254" layer="20" curve="90"/>
+<wire x1="72" y1="3" x2="72" y2="47" width="0.254" layer="20"/>
+<wire x1="72" y1="47" x2="69" y2="50" width="0.254" layer="20" curve="90"/>
+<wire x1="69" y1="50" x2="3" y2="50" width="0.254" layer="20"/>
+<wire x1="3" y1="50" x2="0" y2="47" width="0.254" layer="20" curve="90"/>
+<wire x1="0" y1="47" x2="0" y2="3" width="0.254" layer="20"/>
+<wire x1="0" y1="3" x2="3" y2="0" width="0.254" layer="20" curve="90"/>
 </plain>
 <libraries>
 <library name="AdapterBoard" urn="urn:adsk.eagle:library:6658125">
@@ -2464,7 +2464,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="SPICEPREFIX" value="R" x="29.5" y="37.5" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="29.499996875" y="38.6354" size="0.8128" layer="26" rot="MR180" align="top-center"/>
 </element>
-<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="3R3" x="26" y="37.5" smashed="yes" rot="MR180">
+<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="36" x="26" y="37.5" smashed="yes" rot="MR180">
 <attribute name="SPICEPREFIX" value="R" x="26" y="37.5" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="26" y="38.6354" size="0.8128" layer="26" rot="MR180" align="top-center"/>
 </element>

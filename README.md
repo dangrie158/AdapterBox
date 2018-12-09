@@ -48,7 +48,7 @@ The full BOM is currently only available from CONRAD Electronic, however for mos
 | Banana Jack Red    | 2   | Schützinger       | BU 403 rt             | 737672 - 62  | 1,3       | 1,18       | 2,6                |
 | DC Jack            | 1   | TRU-Components    | 1582643               | 1582643 - 62 | 0,68      | 0,62       | 0,68               |
 | LM334              | 1   | Texas Instruments | LM334M/NOPB           | 1014051 - 62 | 0,65      | 0,58       | 0,65               |
-| 3.3 Ohm 0603       | 1   | Samsung           | RC1608F3R3CS          | 436677 - 62  | 0,02      | 0,02       | 0,02               |
+| 36 Ohm 0603        | 1   | Samsung           | RC1608F36R0CS         | 436455 - 62  | 0,02      | 0,02       | 0,02               |
 | 100 Ohm 0603       | 1   | TRU-Components    | 1585242               | 1585242 - 62 | 0,02      | 0,02       | 0,02               |
 | BC807              | 1   | Nexperia          | BC807-25,215          | 1112884 - 62 | 0,2       | 0,19       | 0,2                |
 |                    |     |                   |                       |              |           |            |                    |
