@@ -661,7 +661,7 @@ CONN_06
 </device>
 </devices>
 </deviceset>
-<deviceset name="BNC-V" urn="urn:adsk.eagle:component:6658129/7" locally_modified="yes" library_version="29" library_locally_modified="yes">
+<deviceset name="BNC-V" urn="urn:adsk.eagle:component:6658129/8" library_version="31">
 <gates>
 <gate name="G$1" symbol="BU-BNC" x="0" y="0"/>
 </gates>
@@ -9256,7 +9256,7 @@ grid 2.54 mm, vertical</description>
 <part name="U$2" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" deviceset="6MM-BANANA-PLUG" device="SCREW-RED" package3d_urn="urn:adsk.eagle:package:6717381/2" value="6MM-BANANA-PLUGSCREW-RED"/>
 <part name="U$3" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" deviceset="6MM-BANANA-PLUG" device="SCREW-BLACK" package3d_urn="urn:adsk.eagle:package:6717096/2" value="6MM-BANANA-PLUGSCREW-BLACK"/>
 <part name="U$4" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" deviceset="6MM-BANANA-PLUG" device="SCREW-RED" package3d_urn="urn:adsk.eagle:package:6717381/2" value="6MM-BANANA-PLUGSCREW-RED"/>
-<part name="U$5" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" deviceset="BNC-V" device="" package3d_urn="urn:adsk.eagle:package:7174046/2" value="BNC-V"/>
+<part name="U$5" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" deviceset="BNC-V" device="TE-1-1337541-0" package3d_urn="urn:adsk.eagle:package:6658128/5" value="BNC-VTE-1-1337541-0"/>
 <part name="U$6" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" deviceset="PINHEADER-1X6" device="MALE_LOCK" package3d_urn="urn:adsk.eagle:package:7198025/2"/>
 <part name="U$7" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" deviceset="PINHEADER-1X6" device="MALE_LOCK" package3d_urn="urn:adsk.eagle:package:7198025/2"/>
 <part name="U$8" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" deviceset="PINHEADER-1X6" device="FEMALE_LOCK" package3d_urn="urn:adsk.eagle:package:7198026/2"/>
