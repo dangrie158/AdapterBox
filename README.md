@@ -51,5 +51,6 @@ The full BOM is currently only available from CONRAD Electronic, however for mos
 | 36 Ohm 0603        | 1   | Samsung           | RC1608F36R0CS         | 436455 - 62  | 0,02      | 0,02       | 0,02               |
 | 100 Ohm 0603       | 1   | TRU-Components    | 1585242               | 1585242 - 62 | 0,02      | 0,02       | 0,02               |
 | BC807              | 1   | Nexperia          | BC807-25,215          | 1112884 - 62 | 0,2       | 0,19       | 0,2                |
+| Power LED          | 1   | Kingbright        | L 53 LID              | 146005 - 62  | 0,13      | 0,12       | 0,13               |
 |                    |     |                   |                       |              |           |            |                    |
 |                    |     |                   |                       |              |           | **Total**  | **16,2**           |
