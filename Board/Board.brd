@@ -3,10 +3,10 @@
 <eagle version="9.2.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.125" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -23,17 +23,17 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -46,10 +46,10 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -2223,35 +2223,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package3d>
 </packages3d>
 </library>
-<library name="DC_LOAD_AU" urn="urn:adsk.eagle:library:220454">
-<description>Generated from &lt;b&gt;DC_LOAD_AU.sch&lt;/b&gt;&lt;p&gt;
-by exp-lbrs-replace2.ulp</description>
-<packages>
-<package name="SOT23-BEC" urn="urn:adsk.eagle:footprint:220485/1" library_version="16">
-<description>TO-236 ITT Intermetall</description>
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.127" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.127" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.127" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.127" layer="51"/>
-<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
-<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
-<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
-<smd name="B" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="C" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="E" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="SOT23-BEC" urn="urn:adsk.eagle:package:220536/2" type="model" library_version="16">
-<description>TO-236 ITT Intermetall</description>
-<packageinstances>
-<packageinstance name="SOT23-BEC"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2466,13 +2437,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="19.825" y="35.9666" size="1.27" layer="25" ratio="10" align="center-left"/>
 <attribute name="VALUE" x="19.2004" y="33.1966" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="T1" library="DC_LOAD_AU" library_urn="urn:adsk.eagle:library:220454" package="SOT23-BEC" package3d_urn="urn:adsk.eagle:package:220536/2" value="BC807" x="32" y="35" smashed="yes" rot="MR180">
-<attribute name="VALUE" x="32" y="32.427" size="0.8128" layer="26" rot="MR180" align="center"/>
-</element>
-<element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="100" x="29.5" y="37.5" smashed="yes" rot="MR180">
-<attribute name="SPICEPREFIX" value="R" x="29.5" y="37.5" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VALUE" x="29.499996875" y="38.6354" size="0.8128" layer="26" rot="MR180" align="top-center"/>
-</element>
 <element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="36" x="26" y="37.5" smashed="yes" rot="MR180">
 <attribute name="SPICEPREFIX" value="R" x="26" y="37.5" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="26" y="38.6354" size="0.8128" layer="26" rot="MR180" align="top-center"/>
@@ -2480,37 +2444,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="U$21" library="AdapterBoard" library_urn="urn:adsk.eagle:library:6658125" package="ECON-USBBUVA" package3d_urn="urn:adsk.eagle:package:6728531/2" value="USB" x="12" y="14" smashed="yes"/>
 </elements>
 <signals>
-<signal name="N$2">
-<contactref element="T1" pad="B"/>
-<contactref element="R1" pad="2"/>
-<wire x1="30.35" y1="37.5" x2="31.05" y2="36.8" width="0.1524" layer="16"/>
-<wire x1="31.05" y1="36.8" x2="31.05" y2="36.1" width="0.1524" layer="16"/>
-</signal>
-<signal name="N$3">
-<contactref element="R1" pad="1"/>
-<contactref element="IC1" pad="3"/>
-<wire x1="28.135" y1="35.6" x2="28.135" y2="36.635" width="0.1524" layer="16"/>
-<wire x1="28.135" y1="36.635" x2="28.65" y2="37.15" width="0.1524" layer="16"/>
-<wire x1="28.65" y1="37.5" x2="28.65" y2="37.15" width="0.1524" layer="16"/>
-</signal>
 <signal name="N$1">
 <contactref element="R2" pad="2"/>
-<contactref element="POWER" pad="K"/>
 <contactref element="IC1" pad="2"/>
 <wire x1="26.865" y1="35.6" x2="26.865" y2="37.485" width="0.1524" layer="16"/>
 <wire x1="26.865" y1="37.485" x2="26.85" y2="37.5" width="0.1524" layer="16"/>
-<wire x1="26.865" y1="35.6" x2="26.865" y2="34.365" width="0.1524" layer="16"/>
-<wire x1="26.865" y1="34.365" x2="26.25" y2="33.75" width="0.1524" layer="16"/>
-<wire x1="26.25" y1="33.75" x2="18.52" y2="33.75" width="0.1524" layer="16"/>
-<wire x1="18.52" y1="33.75" x2="17.27" y2="35" width="0.1524" layer="16"/>
-</signal>
-<signal name="N$4">
-<contactref element="T1" pad="C"/>
-<contactref element="POWER" pad="A"/>
-<wire x1="16.73" y1="33" x2="14.73" y2="35" width="0.1524" layer="16"/>
-<wire x1="32" y1="33.9" x2="30.48" y2="33.9" width="0.1524" layer="16"/>
-<wire x1="30.48" y1="33.9" x2="29.58" y2="33" width="0.1524" layer="16"/>
-<wire x1="29.58" y1="33" x2="16.73" y2="33" width="0.1524" layer="16"/>
 </signal>
 <signal name="V+">
 <contactref element="U$2" pad="P$1"/>
@@ -2536,7 +2474,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U$16" pad="P$1"/>
 <contactref element="U$19" pad="P$1"/>
 <contactref element="U$19" pad="P$2"/>
-<contactref element="T1" pad="E"/>
 <polygon width="0.8" layer="1" isolate="0.8128" rank="2">
 <vertex x="0" y="25.875"/>
 <vertex x="72" y="25.875"/>
@@ -2560,9 +2497,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="13.7" y1="16.2" x2="13.7" y2="25" width="1.27" layer="16"/>
 <wire x1="13.7" y1="16.2" x2="12" y2="14.5" width="1.27" layer="16"/>
 <wire x1="12" y1="14" x2="12" y2="14.5" width="1.27" layer="16"/>
-<wire x1="32.95" y1="36.1" x2="32.95" y2="40.646" width="0.1524" layer="16"/>
-<wire x1="32.95" y1="40.646" x2="32.85" y2="40.746" width="0.1524" layer="16"/>
-<wire x1="27.5" y1="25" x2="27.5" y2="37.66" width="0.8128" layer="1"/>
+<contactref element="POWER" pad="A"/>
+<wire x1="27.5" y1="25" x2="27.5" y2="40.476" width="1.27" layer="1"/>
+<wire x1="27.5" y1="40.476" x2="27.77" y2="40.746" width="1.27" layer="1"/>
 </signal>
 <signal name="V-">
 <contactref element="U$8" pad="6"/>
@@ -2638,6 +2575,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="20" y1="34.5" x2="18" y2="36.5" width="0.1524" layer="16"/>
 <wire x1="18" y1="36.5" x2="6.09" y2="36.5" width="0.1524" layer="16"/>
 <contactref element="U$5" pad="CONDUCTOR2" route="any" routetag="G$1.S"/>
+</signal>
+<signal name="N$2">
+<contactref element="IC1" pad="3"/>
+<contactref element="POWER" pad="K"/>
+<wire x1="28.135" y1="35.6" x2="28.135" y2="34.135" width="0.1524" layer="16"/>
+<wire x1="28.135" y1="34.135" x2="27" y2="33" width="0.1524" layer="16"/>
+<wire x1="27" y1="33" x2="19" y2="33" width="0.1524" layer="16"/>
+<wire x1="19" y1="33" x2="17.27" y2="34.73" width="0.1524" layer="16"/>
+<wire x1="17.27" y1="34.73" x2="17.27" y2="35" width="0.1524" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
