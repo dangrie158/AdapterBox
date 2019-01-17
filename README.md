@@ -1,3 +1,5 @@
+<a href="https://www.tindie.com/stores/dangrie158/?ref=offsite_badges&utm_source=sellers_dangrie158&utm_medium=badges&utm_campaign=badge_large"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png" alt="I sell on Tindie" width="200" height="104"></a>
+
 # Adapter Box
 
 A simple multiconnector Adapter Box to hopefully fulfill all connection needs. It features 2 Channels (e.g. +/-) and the following connectors:
